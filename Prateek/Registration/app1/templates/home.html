@@ -1,0 +1,324 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidcup Family Golf</title>
+  <link rel="shortcut icon" href="{% static 'Assests/favicons/favicon-32x32.png' %}" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'Assests/style.css' %}">
+</head>
+<body>
+<div class="loader-wrapper">
+  <div class="loader">
+    <div class="bar">
+      <div class="ball"></div>
+    </div>
+  </div>
+</div>
+  <div id="nav">
+    <img src="{% static 'Assests/logo4.svg' %}" alt="Logo">
+    <h4><button data-text="Awesome" class="nav-btn">
+        <span class="actual-text">&nbsp;HOME&nbsp;</span>
+        <span class="hover-text" aria-hidden="true">&nbsp;Home&nbsp;</span>
+      </button></h4>
+      <h4><button data-text="Awesome" class="nav-btn">
+        <span class="actual-text">&nbsp;OUR&nbsp;TEAM&nbsp;</span>
+        <span class="hover-text" aria-hidden="true">&nbsp;OUR&nbsp;TEAM&nbsp;</span>
+      </button></h4>
+      <h4>
+  <button data-text="Awesome" class="nav-btn" id="signup-button">
+    <span class="actual-text">&nbsp;SIGN&nbsp;UP&nbsp;</span>
+    <span class="hover-text" aria-hidden="true">&nbsp;SIGN&nbsp;UP&nbsp;</span>
+  </button>
+</h4>
+      <h4><button data-text="Awesome" class="nav-btn" id="login-button">
+        <span class="actual-text">&nbsp;LOG&nbsp;IN&nbsp;</span>
+        <span class="hover-text" aria-hidden="true">&nbsp;LOG&nbsp;IN&nbsp;</span>
+      </button></h4>
+      <h4><button data-text="Awesome" class="nav-btn" id="about-button">
+        <span class="actual-text">&nbsp;About&nbsp;us&nbsp;</span>
+        <span class="hover-text" aria-hidden="true">&nbsp;About&nbsp;us&nbsp;</span>
+      </button></h4>
+  </div>
+  <div id="cursor"></div>
+  <div id="cursor-blur"></div>
+
+  <video autoplay loop muted controls>
+        <source src="https://sidcupfamilygolf.com/wp-content/uploads/2023/02/hero.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+  <div id="main">
+    <div id="page1">
+      <h1>EAT. DRINK. PLAY.</h1>
+      <h2>"Welcome to ElevateX Sports – Where Dreams Elevate Through Play."</h2>
+      <p>
+       ElevateX Sports: Elevating Passion, Performance, and Accessibility.
+
+        ElevateX Sports is a dynamic sports platform dedicated to elevating your passion and performance. With a focus on
+        accessibility, we're committed to making sports a reachable and enriching experience for all.
+      </p>
+      <div id="arrow">
+        <i class="ri-arrow-down-line"></i>
+      </div>
+    </div>
+    <div id="page2">
+      <div id="scroller">
+       <div id="scroller-in">
+            <h4>Comprehensive Training</h4>
+            <h4>Educational Empowerment</h4>
+            <h4>Nutrition and Wellness</h4>
+            <h4>Inspiring Stories</h4>
+            <h4>Community and Support</h4>
+          </div>
+          <div id="scroller-in">
+          <h4>Comprehensive Training</h4>
+          <h4>Educational Empowerment</h4>
+          <h4>Nutrition and Wellness</h4>
+          <h4>Inspiring Stories</h4>
+          <h4>Community and Support</h4>
+          </div>
+      </div>
+      <div id="about-us">
+        <img src="{% static 'Assests/home-about-1-300x200.jpg' %}" alt="">
+        <div id="about-us-in">
+            <h3><button data-text="Awesome" class="button">
+              <span class="actual-text">&nbsp;About&nbsp;us&nbsp;</span>
+              <span class="hover-text" aria-hidden="true">&nbsp;About&nbsp;us&nbsp;</span>
+            </button></h3>
+          <p>
+              Welcome to ElevateX Sports – Where Dreams Become Careers
+              <br><br>
+              At ElevateX Sports, we believe in the transformative power of sports. We're on a mission to reshape the narrative around
+              sports in India, turning passion into profession, and dreams into distinguished careers. In a nation where sports are
+              often relegated to the sidelines, we're here to change that perception, one athlete at a time.
+            </p>
+        </div>
+        <img src="{% static 'Assests/home-about-2-300x200.jpg' %}" alt="">
+      </div>
+      <div id="cards-container">
+        <div class="card" id="card1">
+          <div class="overlay">
+            <h4>TopRacer Range</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+              quam molestias magni cupiditate architecto et enim quas facere
+              ipsum tempora?
+            </p>
+          </div>
+        </div>
+        <div class="card" id="card2">
+          <div class="overlay">
+            <h4>Adventure Golf</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+              quam molestias magni cupiditate architecto et enim quas facere
+              ipsum tempora?
+            </p>
+          </div>
+        </div>
+        <div class="card" id="card3">
+          <div class="overlay">
+            <h4>Golf Lessons</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+              quam molestias magni cupiditate architecto et enim quas facere
+              ipsum tempora?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="green-div">
+        <img src="{% static 'Assests/dots-side.svg' %}" alt="">
+        <h4>
+          SIGN UP FOR ELEVATE X SPORTS NEWS AND EXCLUSIVE OFFERS DIRECTLY TO YOUR INBOX
+        </h4>
+       <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt=""
+          />
+      </div>
+    </div>
+    <div id="page3">
+      <p>
+        "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice, and most of all, love of what you
+        are doing or learning to do."<br>- Pelé
+      </p>
+    <img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt=""
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt=""
+        />
+    </div>
+    <div id="page4">
+        <h1>"Elevate your game with training for all."</h1>
+        <div class="elem">
+          <h2>Beginner</h2>
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-toptracer-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <h2>Intermediate</h2>
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-lessons-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <h2>Advanced</h2>
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-ag-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1"
+            alt=""
+          />
+        </div>
+      </div>
+         <div id="footer">
+        <img
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-footer.svg"
+          alt=""
+        />
+        <div id="f1">
+      <div class="icoo">
+        <div class="background">
+        </div>
+        <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="60" viewBox="0 0 150 60" class="logo-svg">
+          <text x="5" y="40" font-family="Arial" font-size="122" font-weight="bold" fill="white" text-decoration="underline">
+            ES
+            <textDecoration>
+              <underline />
+            </textDecoration>
+          </text>
+        </svg>
+
+
+            <path id="Path_6" data-name="Path 6"
+              d="M12.827,1.628A1.561,1.561,0,0,1,14.31,0h2.964a1.561,1.561,0,0,1,1.483,1.628v11.9a9.252,9.252,0,0,1-2.432,6.852q-2.432,2.409-6.963,2.409T2.4,20.452Q0,18.094,0,13.669V1.628A1.561,1.561,0,0,1,1.483,0h2.98A1.561,1.561,0,0,1,5.947,1.628V13.191a5.635,5.635,0,0,0,.85,3.451,3.153,3.153,0,0,0,2.632,1.094,3.032,3.032,0,0,0,2.582-1.076,5.836,5.836,0,0,0,.816-3.486Z"
+              transform="translate(0 0)"></path>
+            <path id="Path_7" data-name="Path 7"
+              d="M75.207,20.857a1.561,1.561,0,0,1-1.483,1.628h-2.98a1.561,1.561,0,0,1-1.483-1.628V1.628A1.561,1.561,0,0,1,70.743,0h2.98a1.561,1.561,0,0,1,1.483,1.628Z"
+              transform="translate(-45.91 0)"></path>
+            <path id="Path_8" data-name="Path 8"
+              d="M0,80.018A1.561,1.561,0,0,1,1.483,78.39h26.7a1.561,1.561,0,0,1,1.483,1.628v2.006a1.561,1.561,0,0,1-1.483,1.628H1.483A1.561,1.561,0,0,1,0,82.025Z"
+              transform="translate(0 -51.963)"></path>
+          </svg>
+        </div>
+        <div class="box box1" id="bx1"><span class="icon"><svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" class="svg">
+              <path
+                d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z">
+              </path>
+            </svg></span></div>
+        <div class="box box2" id="bx2"> <span class="icon"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="svg">
+              <path
+                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+              </path>
+            </svg></span></div>
+        <div class="box box3" id="bx3"><span class="icon"><svg viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" class="svg">
+              <path
+                d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z">
+              </path>
+            </svg></span>
+        <div class="box box4"></div>
+      </div>
+        <div class="box box4"></div>
+      </div>
+        </div>
+        <div id="f2">
+
+        </div>
+        <div id="f3">
+          <h3>coffee shop</h3>
+          <h3>LEAGUES</h3>
+          <h3>Contact us</h3>
+        </div>
+        <div id="f4">
+          <h4>
+            A20, SIDCUP BYPASS <br />
+            CHISLEHURST <br />
+            KENT <br />
+            BR7 6RP <br />
+            TEL: 0208 309 0181 <br />
+            GET DIRECTIONS <br />
+          </h4>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js" integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="{% static 'Assests/script.js' %}"></script>
+<script>
+    // Center the loader vertically and horizontally
+      function centerLoader() {
+        const loaderWrapper = document.querySelector(".loader-wrapper");
+        const loader = document.querySelector(".loader");
+
+        const windowHeight = window.innerHeight;
+        const loaderHeight = loader.clientHeight;
+
+        // const topMargin = (windowHeight - loaderHeight) / 2;
+        // loaderWrapper.style.marginTop = `${topMargin}px`;
+      }
+
+      // Hide the loader after a delay when the page has fully loaded
+      function hideLoaderWithDelay(delay) {
+        setTimeout(function () {
+          const loaderWrapper = document.querySelector(".loader-wrapper");
+          loaderWrapper.style.display = "none";
+        }, delay);
+      }
+
+      // Call the centerLoader function on page load and when the window is resized
+      document.addEventListener("DOMContentLoaded", function () {
+        centerLoader();
+        hideLoaderWithDelay(50); // Adjust the delay (in milliseconds) as needed
+      });
+
+      window.addEventListener("resize", centerLoader);
+
+
+    </script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const bx1 = document.getElementById("bx1");
+    const bx2 = document.getElementById("bx2");
+    const bx3 = document.getElementById("bx3");
+
+    bx1.addEventListener("click", function () {
+      window.location.href = "https://www.google.com";
+    });
+
+    bx2.addEventListener("click", function () {
+      window.location.href = "your_url_for_box2";
+    });
+
+    bx3.addEventListener("click", function () {
+      window.location.href = "your_url_for_box3";
+    });
+  });
+
+  document.getElementById("about-button").addEventListener("click", function () {
+    document.getElementById("about-us-in").scrollIntoView({
+      behavior: "smooth",
+      block: "nearest"
+    });
+  });
+
+  document.getElementById("signup-button").addEventListener("click", function () {
+    window.location.href = "{% url 'signup' %}";
+  });
+  document.getElementById("login-button").addEventListener("click", function () {
+    window.location.href = "{% url 'login' %}";
+  });
+</script>
+
+</body>
+</html>
